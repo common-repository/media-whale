@@ -1,0 +1,286 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.loading-center-convert {
+    display: none;
+}
+.convert_box_empty_not_sl.empty_specific_posts {
+    background: #f44336;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 26px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.convert_box_empty_not_sl.empty_specific_posts a {
+    color: #fff;
+}
+.connected-account {
+    text-align: center;
+    background: #fff;
+    padding: 13px;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 18px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.convert_specific_ps_dt::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.convert_specific_ps_dt {}
+
+.convert_specific_ps_dt h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: 55px !important;
+}
+.convert_selector-main h6 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.success-message-block {
+    background: #4caf50;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: none;
+}
+input.connect_button {cursor: pointer;}
+.toplevel_page_mediawhale .wp-menu-image.dashicons-before img {max-width: 21px;position: relative;top: -3px;}
+input.connect_button {padding: 14px 18px;border-radius: 3px;border: 3px solid #9987ff;}
+input#disconnect_site {cursor: pointer;}
+.media-whale_page_mediawhale-settings .wrap form {max-width: 500px;margin: 0 auto;background: #fff;padding: 13px 33px;border-radius: 10px;}
+
+.media-whale_page_mediawhale-settings .wrap form input#submit {background: #6a4fff;border: 0;display: block;width: 100%;padding: 10px;font-weight: bold;font-size: 14px;}
+
+.media-whale_page_mediawhale-settings .wrap h2 {text-align: center;font-weight: bold;}
+
+.media-whale_page_mediawhale-settings .wrap p {text-align: center;}
+span.shortcode-title {font-size: 14px;color: #1d2327;font-weight: 600;padding-bottom: 8px;}
+
+.shortcode-container {padding-top: 16px;}
+.mediawhale-warning-txt {display: block;background: #ff9800;color: #fff;font-size: 11px;padding: 7px 13px;margin-top: 10px;}
+
+select#language_name {width: 100%;height: 41px;}
+
+select#voice_name {width: 100%;
+    height: 41px;}
+
+    .media-whale_page_mediawhale-settings .notice, .media-whale_page_mediawhale-converter .notice, .admin_page_convert-specific-posts .notice, .toplevel_page_mediawhale .notice{display: none;}
+
+select#display_player_callback {width: 100%;
+    height: 41px;}
+div#preview_audio {display: none;}
+
+.article-usage {text-align: center;background: #6a4fff;color: #fff;font-size: 15px;font-weight: bold;z-index: 9;}
+
+.article-usage {max-width: 442px;margin: 0 auto;margin-top: 10px;border-radius: 28px;}
+
+.article-usage .article-usage-temp {display: inline-block;}
+
+.article-usage {padding: 14px;}
+
+.mediawhale-warning-txt {display: none;}
+a#stop_convert {background: #f44336;display: block;text-align: center;color: #fff;padding: 10px;text-decoration: none;border-radius: 50px;max-width: 200px;margin: 0 auto;font-weight: 600;}
+
+a#stop_convert:hover {opacity: 0.6;}
+.converter_box_inner_main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+a.listen-voice-sample {background: #6a4fff;color: #fff;text-decoration: none;padding: 7px;border-radius: 4px;display: block;text-align: center;margin-top: 8px;}
+
+a.listen-voice-sample svg {max-width: 16px;}
+
+a.listen-voice-sample span {position: relative;top: -5px;}
+
+a.listen-voice-sample svg {position: relative;top: 2px;}
+
+a.listen-voice-sample:hover {transition: all 0.5s;opacity: 0.6;}
+* {
+  box-sizing: border-box;
+}
+.converter_box_m_block h3 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.converter_box_m_block {
+    background: #fff;
+    padding: 17px;
+    box-shadow: 1px 1px 36px #cdcdcd;
+    border-radius: 6px;
+    position: relative;
+    top: 60px;
+}
+
+a.convert_box_m {
+    display: block;
+    background: #e54a7d;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.convert_every_txt {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 11px;
+}
+
+a.convert_box_m:hover {
+    opacity: 0.7;
+}
+.convert_every_loading {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.animated-progress.progress-blue span {background: #6a4fff;color: #fff;text-align: center;border-radius: 25px;padding: 11px;font-weight: 500;}
+
+.loading-center-convert {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.connect_button{
+    background: #6a4fff;
+    color: #fff;
+    border: 1px solid #6a4fff;
+    padding: 6px;
+}
+/*.connect_button a :hover{
+    color: #fff;
+    text-decoration: none;
+}
+*/.having_trouble{
+    text-align: center;
+    margin: 0 auto;
+}
+.having_trouble p{
+    text-align: center;
+    font-size: 15px;
+}
+.connect_box {
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    width: 350px;
+    padding: 25px 30px 30px 30px;
+    border: 1px solid #6a4fff;
+}
+.border {
+    border-bottom: 3px solid #6a4fff;
+/*    padding-top: 150px;*/
+    width: 34%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.site-connected {
+    background: #fff;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    max-width: 444px;
+    margin: 0 auto;
+    padding: 22px;
+    font-weight: bold;
+}
+.connect_section{
+    width: 100%;
+    margin-top: 35px;
+}
+.image_left{
+    width: 50%;
+    float: left;
+}
+.image_right{
+    width: 50%;
+    float: left;
+}
+.Wellcome_heading {
+        margin-top: 40px;
+}
+.Wellcome_heading h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.Wellcome_heading p{
+    text-align: center;
+    font-size: 15px;
+}
+.connect_section{
+    text-align: center;
+}
+.animated-progress.progress-blue {
+    background: #eee;
+    border-radius: 50px;
+}
+.convert_specific_ps_dt .animated-progress.progress-blue {background: #341554;}
+
+.convert_specific_ps_dt .animated-progress.progress-blue svg {background: #341554 !important;width: 120px;}
+.convert_specific_ps_dt span.span_con_txt {display: block;border-radius: 0;font-size: 15px;}
+.converter_box_m_block{
+    display: none;
+}
+.convert_specific_ps_dt {}
+
+.convert_specific_ps_dt form h2 {display: none;}
+
+.convert_specific_ps_dt {max-width: 600px;margin: 0 auto;background: #341554 !important;color: #fff;padding: 10px;display: block;margin-top: 40px;border-radius: 10px;}
+
+.convert_specific_ps_dt h2 {color: #fff;text-align: center;font-weight: bold !important;}
+
+.convert_specific_ps_dt form th {color: #fff;}
+
+a.convert_these_posts {float: right;background: #fff;color: #341554;display: block;padding: 15px;font-size: 15px;font-weight: 600;margin-top: 18px;text-decoration: none;border-radius: 3px;}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {color: #fff;}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {background: #341554;}
+
+.converter_give_options {background: #341554 !important;text-align: center;padding: 14px;color: #fff;border-radius: 7px;}
+
+.converter_give_options h3 {color: #fff;font-size: 23px;margin-bottom: 26px;}
+
+.convert_first_option {font-size: 17px;background: #fff;color: #341554;font-weight: bold;padding: 14px;border-radius: 4px;margin-bottom: 16px;cursor: pointer;}
+
+.convert_specific_posts {font-size: 17px;
+    background: #fff;
+    color: #341554;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    cursor: pointer;}
+.converter_give_options h6 {margin-top: 0 !important;font-size: 15px;font-weight: 500;padding-left: 40px;padding-right: 40px;line-height: 22px;}
